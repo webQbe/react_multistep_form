@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import FormUserDetails from './FormUserDetails';
 import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
+import Success from './Success';
 
 export class UserForm extends Component {
 
@@ -93,9 +94,9 @@ export class UserForm extends Component {
                     values={values} 
                 />
             )
-            
+
         case 4:
-            return <h1>Success</h1> // Render placeholder message
+            return <Success />; 
     }
   }
 }
