@@ -54,7 +54,7 @@ export class FormUserDetails extends Component {
               variant="contained"
               color="primary" // Blue color
               onClick={this.continue} // Run continue() on click event
-              style={{ width: '95%' }} // Set style
+              style={{ width: '40%' }} // Set style
               > 
                 Continue
             </Button>
