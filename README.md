@@ -1,5 +1,7 @@
 # React Multi-step Form
+This repo is an adaptation of [Multi Step Form With React & Material UI](https://www.youtube.com/watch?v=zT62eVxShsY) by Brad Traversy. 
 
+I followed the tutorial to learn followings:
 - First part: *First Name*, *Last Name*, *Email*
 - *Continue* button to go to next steps
 - Second part: *Occupation*, *City*, *Bio*
@@ -24,6 +26,11 @@
 3. `UserForm` > `FormPersonalDetails` (The second step)
 4. `UserForm` > `Confirm` (Send calls to back-end)
 5. `UserForm` > `Success`
+
+## What I changed
+- Updated imports to use the new MUI v5 structure.
+- Used MUI v5 props: `placeholder`, `label`.
+- Added style attributes to `<Button>`s.
 
 ## Getting Started
 
@@ -79,3 +86,11 @@
     - Sub-component FormPersonalDetails: `src/components/FormPersonalDetails.js`
     - Sub-component Confirm: `src/components/Confirm.js`
     - Sub-component Success: `src/components/Success.js`
+
+
+## Credits
+Original tutorial: [Multi Step Form With React & Material UI](https://www.youtube.com/watch?v=zT62eVxShsY) — Brad Traversy.
+This repo includes my changes (noted above).
+
+## License
+MIT License
